@@ -13,19 +13,24 @@ class Midi {
 
       blocks: [
         {
-          opcode: 'isExactly',
+          opcode: 'checkMidi',
 
           blockType: Scratch.BlockType.BOOLEAN,
 
-          text: 'is [A] exactly [B]?',
+          text: 'is midi connected?',
           arguments: {
-            A: {
-              type: Scratch.ArgumentType.STRING,
-              defaultValue: 'apple'
-            },
-            B: {
-              type: Scratch.ArgumentType.STRING,
-              defaultValue: 'APPLE'
+            if (navigator.requestMIDIAccess) {
+                      navigator.requestMIDIAccess()
+                      .then(success, failure);
+          }
+            
+function success (midi) {
+    returnTrue;
+}
+ 
+function failure () {
+    returnFalse
+}
             }
           }
         },

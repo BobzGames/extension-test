@@ -39,7 +39,7 @@ ExampleExtension.prototype.getInfo = function () {
                 opcode: 'example-noop',
                 blockType: Scratch.BlockType.COMMAND,
                 blockAllThreads: false,
-                text: 'do nothing',
+                text: 'Play [note]',
                 func: 'noop'
             },
             {

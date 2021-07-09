@@ -138,13 +138,7 @@ ExampleExtension.prototype.getInfo = function () {
                 opcode: 'example-Boolean',
                 blockType: Scratch.BlockType.BOOLEAN,
                 text: 'Is [note] active',
-                arguments: {
-                    TEXT: {
-                        type: ArgumentType.STRING
-                        defaultValue: "hello"
-                        menu: "languages"
-                    }
-                }
+                
             },
             {
                 opcode: 'example-hat',

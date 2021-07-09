@@ -138,13 +138,20 @@ ExampleExtension.prototype.getInfo = function () {
                 opcode: 'example-Boolean',
                 blockType: Scratch.BlockType.BOOLEAN,
                 text: 'Is [note] active',
-                func: 'returnTrue'
+                arguments: {
+                    TEXT: {
+                        type: ArgumentType.STRING
+                        defaultValue: "hello"
+                        menu: "languages"
+                    }
+                }
             },
             {
                 opcode: 'example-hat',
                 blockType: Scratch.BlockType.HAT,
                 text: 'after forever',
-                func: 'returnFalse'
+                func: 'returnTrue'
+                
             },
             {
                 // Another block...

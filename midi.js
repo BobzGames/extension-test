@@ -143,7 +143,7 @@ ExampleExtension.prototype.getInfo = function () {
                     TEXT: {
                         type: ArgumentType.STRING
                         defaultValue: "hello"
-                        menu: "languages"
+                        menu: "notes"
                     }
                 }
                 
@@ -163,15 +163,24 @@ ExampleExtension.prototype.getInfo = function () {
         // Optional: define extension-specific menus here.
         menus: {
             // Required: an identifier for this menu, unique within this extension.
-            menuA: [
+            notes: [
                 // Static menu: list items which should appear in the menu.
                 {
                     // Required: the value of the menu item when it is chosen.
-                    value: 'itemId1',
-
-                    // Optional: the human-readable label for this item.
-                    // Use `value` as the text if this is absent.
-                    text: 'Item One'
+                    value: 'C4',
+                    'C#'
+                    'D'
+                    'D#'
+                    'E'
+                    'F'
+                    'F#'
+                    'G'
+                    'G#'
+                    'A'
+                    'A#'
+                    'B'
+                    'C5'
+                    
                 },
 
                 // The simplest form of a list item is a string which will be used as

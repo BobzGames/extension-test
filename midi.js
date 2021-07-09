@@ -159,18 +159,18 @@ ExampleExtension.prototype.getInfo = function () {
                 {
                     // Required: the value of the menu item when it is chosen.
                     value: 'C4',
-                    'C#'
-                    'D'
-                    'D#'
-                    'E'
-                    'F'
-                    'F#'
-                    'G'
-                    'G#'
-                    'A'
-                    'A#'
-                    'B'
-                    'C5'
+                    value: 'C#',
+                    value: 'D',
+                    value: 'D#',
+                    value: 'E',
+                    value: 'F',
+                    value: 'F#',
+                    value: 'G',
+                    value: 'G#',
+                    value: 'A',
+                    value: 'A#',
+                    value: 'B',
+                    value: 'C5'
                     
                 },
 

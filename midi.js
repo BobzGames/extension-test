@@ -134,10 +134,16 @@ ExampleExtension.prototype.getInfo = function () {
                 filter: ['someBlocks.wedo2', 'sprite', 'stage']
             },
             {
-                opcode: 'example-Boolean',
+                opcode: 'note-Boolean',
                 blockType: Scratch.BlockType.BOOLEAN,
                 text: 'note [note] active?',
-                func: 'returnTrue'
+                arguments: {
+                    TEXT: {
+                        type: ArgumentType.STRING
+                        defaultValue: "hello",
+                        menu: "notes"
+                    }
+                }
             },
             {
                 opcode: 'example-hat',

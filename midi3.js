@@ -1,7 +1,7 @@
+const icon = "https://media.tenor.com/images/5fdc2b37145718a0782f270f59d88996/tenor.gif";
 if (navigator.requestMIDIAccess) {
     console.log('Browser supports MIDI!');
 }
-const icon = "https://media.tenor.com/images/5fdc2b37145718a0782f270f59d88996/tenor.gif";
 class Midi {
   constructor() {}
 

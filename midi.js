@@ -140,7 +140,7 @@ ExampleExtension.prototype.getInfo = function () {
                 arguments: {
                     TEXT: {
                         type: ArgumentType.STRING
-                        defaultValue: "hello",
+                        defaultValue: "C#",
                         menu: "notes"
                     }
                 }

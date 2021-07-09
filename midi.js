@@ -140,8 +140,7 @@ ExampleExtension.prototype.getInfo = function () {
                 arguments: {
                     TEXT: {
                         type: ArgumentType.STRING,
-                        defaultValue: "C#",
-                        menu: "notes"
+                        menu: 'notes'
                     }
                 }
             },
@@ -164,19 +163,19 @@ ExampleExtension.prototype.getInfo = function () {
                 // Static menu: list items which should appear in the menu.
                 {
                     // Required: the value of the menu item when it is chosen.
-                    value: 'C4',
-                    value: 'C#',
-                    value: 'D',
-                    value: 'D#',
-                    value: 'E',
-                    value: 'F',
-                    value: 'F#',
-                    value: 'G',
-                    value: 'G#',
-                    value: 'A',
-                    value: 'A#',
-                    value: 'B',
-                    value: 'C5'
+                    'C4',
+                    'C#',
+                    'D',
+                    'D#',
+                    'E',
+                    'F',
+                    'F#',
+                    'G',
+                    'G#',
+                    'A',
+                    'A#',
+                    'B',
+                    'C5'
                     
                 },
 

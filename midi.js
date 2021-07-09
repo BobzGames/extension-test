@@ -139,7 +139,7 @@ ExampleExtension.prototype.getInfo = function () {
                 text: 'note [note] active?',
                 arguments: {
                     TEXT: {
-                        type: ArgumentType.STRING
+                        type: ArgumentType.STRING,
                         defaultValue: "C#",
                         menu: "notes"
                     }

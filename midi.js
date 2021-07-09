@@ -1,3 +1,5 @@
+const icon = "https://d13z1xw8270sfc.cloudfront.net/origin/750074/_bob-improved_1612130887438_1612130905225.png";
+
 var ExampleExtension = function () {
 };
 

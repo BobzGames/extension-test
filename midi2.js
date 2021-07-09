@@ -7,7 +7,7 @@ class Midi {
       id: 'bobzmidi',
       name: 'BobzGames - Midi -',
 
-      color1: '#8a1c1f',
+      color1: '#c4161a',
 
       menuIconURI: icon,
 

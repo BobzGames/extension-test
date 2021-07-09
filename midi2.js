@@ -1,4 +1,4 @@
-const icon = "https://d13z1xw8270sfc.cloudfront.net/origin/750074/_bob-improved_1612130887438_1612130905225.png";
+const icon = "https://media.tenor.com/images/5fdc2b37145718a0782f270f59d88996/tenor.gif";
 class Midi {
   constructor() {}
 

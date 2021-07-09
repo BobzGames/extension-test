@@ -19,21 +19,16 @@ class Midi {
 
           text: 'is midi connected?',
           arguments: {
+            
             if (navigator.requestMIDIAccess) {
-                      navigator.requestMIDIAccess()
-                      .then(success, failure);
+              returnTrue;
+            } else {
+              returnFalse;
           }
             
+        
         }
-        }]};function success (midi) {
-    returnTrue;
-}
- 
-function failure () {
-    returnFalse;
-}
-            }
-}
+        }
         },
         {
           opcode: 'isLessOrEqual',

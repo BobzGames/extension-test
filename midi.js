@@ -23,6 +23,7 @@ ExampleExtension.prototype.getInfo = function () {
         // messages with the same ID without colliding.
         // See also: https://github.com/yahoo/react-intl/wiki/API#definemessages
         name: 'BobzGames - Midi -',
+        color1: '#8a1c1f',
 
         // Optional: URI for an icon for this extension. Data URI OK.
         // If not present, use a generic icon.

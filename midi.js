@@ -25,7 +25,7 @@ ExampleExtension.prototype.getInfo = function () {
         // Optional: URI for an icon for this extension. Data URI OK.
         // If not present, use a generic icon.
         // TODO: what file types are OK? All web images? Just PNG?
-        iconURI: 'https://bobzgames.github.io/favicon.ico',
+        iconURI: 'https://d13z1xw8270sfc.cloudfront.net/origin/750074/_bob-improved_1612130887438_1612130905225.png',
 
         // Optional: Link to documentation content for this extension.
         // If not present, offer no link.

@@ -20,7 +20,7 @@ ExampleExtension.prototype.getInfo = function () {
         // internally namespace the messages such that two extensions could have
         // messages with the same ID without colliding.
         // See also: https://github.com/yahoo/react-intl/wiki/API#definemessages
-        name: 'BobzGames - Midi Extension',
+        name: 'BobzGames - Midi -',
 
         // Optional: URI for an icon for this extension. Data URI OK.
         // If not present, use a generic icon.
@@ -137,7 +137,7 @@ ExampleExtension.prototype.getInfo = function () {
             {
                 opcode: 'example-Boolean',
                 blockType: Scratch.BlockType.BOOLEAN,
-                text: 'return true',
+                text: 'Is [note] active',
                 func: 'returnTrue'
             },
             {

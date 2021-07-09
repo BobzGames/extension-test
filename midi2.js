@@ -29,7 +29,7 @@ function success (midi) {
 }
  
 function failure () {
-    returnFalse
+    returnFalse;
 }
             }
           }

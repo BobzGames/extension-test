@@ -139,14 +139,6 @@ ExampleExtension.prototype.getInfo = function () {
                 blockType: Scratch.BlockType.BOOLEAN,
                 text: 'note [note] active?',
                 func: 'returnTrue'
-                arguments: {
-                    TEXT: {
-                        type: ArgumentType.STRING
-                        defaultValue: "hello",
-                        menu: "notes"
-                    }
-                }
-                
             },
             {
                 opcode: 'example-hat',
